@@ -16,8 +16,12 @@
   padding: 0;
 }
 
+html {
+  box-sizing: border-box;
+
+}
 img {
-  display: block;
+  
   max-width: 100%;
   height: auto;
 }
@@ -31,18 +35,14 @@ main {
 }
 
 .container {
-  padding-top: 130px;
-  padding-bottom: 130px;  
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-
+ padding: 0 215px;
 }
 li {
   list-style: none;
 }
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .logo a {
@@ -82,8 +82,12 @@ a {
 }
 .solution {
   background-color: var(--footer-color);
+  width: 1600px;  
+  height: 600px;
 }
 .solution__title {
+  width: 696px;
+  height: 120px;
   color: var(--white);
   font-family: var(--primary-font);
   font-size: 44px;
@@ -91,6 +95,14 @@ a {
   line-height: 60px;
   letter-spacing: 0.06em;
   text-align: center;
+  padding: 200px 452px 30px 237px;
+  
+  
+}
+.but {
+  text-align: center;
+  
+  
 }
 .button {
   cursor: pointer;
@@ -104,7 +116,10 @@ a {
   background-color: var(--blue);
   border-radius: 4px;
   border: none;
-  padding: 10px 19px 10px 20px;
+  width: 200px;
+  height: 50px;
+  margin: 0 700px 200px 485px;
+ 
 }
 .button:hover {
   border: none;
@@ -116,6 +131,12 @@ a {
   opacity: 0.9;
 }
 
+.hero-section 
+ {
+  
+  width: 1170;
+  height: 101;
+}
 .hero-section h5 {
   font-size: 14px;
   font-weight: 700;
@@ -138,6 +159,11 @@ a {
   text-align: center;
 }
 
+,.about-img {
+  
+  flex-direction: row;
+  display: inline;
+}
 .what-we-do img {
   width: 370px;
   height: 294px;
@@ -157,14 +183,14 @@ a {
   font-weight: 500;
   line-height: 18.75px;
   letter-spacing: 0.03em;
-  text-align: center;
+  
 }
 .the-team p {
   font-size: 16px;
   font-weight: 400;
   line-height: 18.75px;
   letter-spacing: 0.03em;
-  text-align: center;
+  
   color: var(--light-black);
 }
 .buttons button {
