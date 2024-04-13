@@ -24,6 +24,7 @@ img {
   
   max-width: 100%;
   height: auto;
+  
 }
 body {
   font-family: var(--primary-font);
@@ -40,24 +41,38 @@ html {
 
 
 .container {
- padding: 0 215px;
+ padding: 24px 215px 25px 215px;
  width: 1200px;
  margin-left: auto;
 margin-right: auto;
 }
+.header {
+  padding: 0 215px;
+  width: 1600px;
+  height: 80px;
+}
+
  .header .container {
 display: flex;
 justify-content: space-between;
 align-items: center;
 }
-.logo .about {
-  flex-direction: row;
+.header__navigation {
+  display: flex;
+  align-items: center;
+  
 }
 
+.about {
+  padding-left: 93px;
+  padding-right: 385px ;
+}
 
 .about ul {
   display: flex;
   gap: 50px;
+  
+  
 }
 
 li {
@@ -89,7 +104,11 @@ a {
 .about a:focus {
   color: var(--blue);
 }
-
+.header__info {
+  display: flex;
+  gap: 40px;
+  margin-right: 100px;
+}
 .header__info a {
   color: var(--light-black);
   font-weight: 500;
@@ -154,11 +173,11 @@ a {
 }
 .button:hover {
   border: none;
-  background-color: blue;
+  background-color: var(--blue);
   color: var(--white);
 }
 .button:focus {
-  background-color: blue;
+  background-color: var(blue);
   opacity: 0.9;
 }
 
@@ -194,24 +213,21 @@ a {
 .what-we-do {
   padding-top: 94px;
   display: flex;
-  flex-direction: column;
   padding-bottom: 94px;
 }
 
 .about-img {
+  display: flex;
     gap: 30px;
+    padding-top: 50px;
   }
   
- 
-
-.about-img  {
-  padding-top: 50px;
-  gap: 30px;
-}
 .the-team {
   background-color: var(--button-color);
   display: flex;
   padding-bottom: 94px;
+  width: 1600px;
+  height: 64;
 }
 .the-team ul {
   display: flex;
@@ -337,6 +353,7 @@ a {
   color: var(--black);
 }
 .footer__adr {
+  cursor: pointer;
   font-style: normal;
   color: var(--white);
  padding-top: 28px;
