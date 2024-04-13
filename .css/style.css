@@ -34,9 +34,32 @@ main {
   font-family: var(--primary-font);
 }
 
+html {
+  box-sizing: border-box;
+}
+
+
 .container {
  padding: 0 215px;
+ width: 1200px;
+ margin-left: auto;
+margin-right: auto;
 }
+ .header .container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo .about {
+  flex-direction: row;
+}
+
+
+.about ul {
+  display: flex;
+  gap: 50px;
+}
+
 li {
   list-style: none;
 }
@@ -96,9 +119,17 @@ a {
   letter-spacing: 0.06em;
   text-align: center;
   padding: 200px 452px 30px 237px;
+  }
+ .hero-section .hero-ul {
+  display: flex;
   
-  
-}
+ }
+ .hero-section__text {
+   height: 75px;
+   width: 270px;
+ }
+
+
 .but {
   text-align: center;
   
@@ -131,11 +162,13 @@ a {
   opacity: 0.9;
 }
 
-.hero-section 
- {
+.hero-section {
+  padding-top: 94px;
+
+}
   
-  width: 1170;
-  height: 101;
+.hero-ul {
+ gap: 30px;
 }
 .hero-section h5 {
   font-size: 14px;
@@ -158,31 +191,58 @@ a {
   letter-spacing: 0.03em;
   text-align: center;
 }
+.what-we-do {
+  padding-top: 94px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 94px;
+}
 
-,.about-img {
+.about-img {
+    gap: 30px;
+  }
   
-  flex-direction: row;
-  display: inline;
+ 
+
+.about-img  {
+  padding-top: 50px;
+  gap: 30px;
+}
+.the-team {
+  background-color: var(--button-color);
+  display: flex;
+  padding-bottom: 94px;
+}
+.the-team ul {
+  display: flex;
+  gap: 30px;
+}
+.team {
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 .what-we-do img {
+  
   width: 370px;
   height: 294px;
   top: 1061px;
   left: 215px;
-  gap: 0px;
 }
 .the-team img {
   width: 270px;
   height: 260px;
   top: 1635px;
   left: 215px;
-  gap: 0px;
+  
 }
 .the-team h5 {
   font-size: 16px;
   font-weight: 500;
   line-height: 18.75px;
   letter-spacing: 0.03em;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
   
 }
 .the-team p {
@@ -190,8 +250,8 @@ a {
   font-weight: 400;
   line-height: 18.75px;
   letter-spacing: 0.03em;
-  
   color: var(--light-black);
+  text-align: center;
 }
 .buttons button {
   cursor: pointer;
@@ -237,6 +297,8 @@ a {
   letter-spacing: 0.06em;
 }
 .footer {
+  width: 1600px;
+  height: 251px;
   background-color: var(--footer-color);
   font-family: var(--primary-font);
   font-weight: 400;
@@ -254,8 +316,12 @@ a {
 .footer__tel:focus {
   color: var(--blue);
 }
-
+.footer {
+  padding-top: 60px;
+  
+}
 .footer__logo {
+
   text-decoration: none;
   font-weight: 700;
   color: var(--blue);
@@ -263,6 +329,8 @@ a {
   line-height: 30%;
   font-size: 26px;
   letter-spacing: 0.03em;
+  
+  
 }
 
 .footer__logo span {
@@ -271,9 +339,14 @@ a {
 .footer__adr {
   font-style: normal;
   color: var(--white);
+ padding-top: 28px;
 }
 
 .footer__mail,
 .footer__tel {
   color: var(--another-color);
+}
+.footer__m {
+    padding-top: 28px;
+      padding-bottom: 12px;
 }
