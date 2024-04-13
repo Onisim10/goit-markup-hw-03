@@ -18,13 +18,10 @@
 
 html {
   box-sizing: border-box;
-
 }
 img {
-  
   max-width: 100%;
   height: auto;
-  
 }
 body {
   font-family: var(--primary-font);
@@ -39,12 +36,11 @@ html {
   box-sizing: border-box;
 }
 
-
 .container {
- padding: 24px 215px 25px 215px;
- width: 1200px;
- margin-left: auto;
-margin-right: auto;
+  padding: 24px 215px 25px 215px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header {
   padding: 0 215px;
@@ -52,27 +48,24 @@ margin-right: auto;
   height: 80px;
 }
 
- .header .container {
-display: flex;
-justify-content: space-between;
-align-items: center;
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .header__navigation {
   display: flex;
   align-items: center;
-  
 }
 
 .about {
   padding-left: 93px;
-  padding-right: 385px ;
+  padding-right: 385px;
 }
 
 .about ul {
   display: flex;
   gap: 50px;
-  
-  
 }
 
 li {
@@ -124,7 +117,7 @@ a {
 }
 .solution {
   background-color: var(--footer-color);
-  width: 1600px;  
+  width: 1600px;
   height: 600px;
 }
 .solution__title {
@@ -138,21 +131,23 @@ a {
   letter-spacing: 0.06em;
   text-align: center;
   padding: 200px 452px 30px 237px;
-  }
- .hero-section .hero-ul {
+}
+.hero-section .hero-ul {
   display: flex;
-  
- }
- .hero-section__text {
-   height: 75px;
-   width: 270px;
- }
+}
 
+.hero-section {
+  width: 1170px;
+  height: 101px;
+}
+
+.hero-section__text {
+  height: 75px;
+  width: 270px;
+}
 
 .but {
   text-align: center;
-  
-  
 }
 .button {
   cursor: pointer;
@@ -169,7 +164,6 @@ a {
   width: 200px;
   height: 50px;
   margin: 0 700px 200px 485px;
- 
 }
 .button:hover {
   border: none;
@@ -183,11 +177,10 @@ a {
 
 .hero-section {
   padding-top: 94px;
-
 }
-  
+
 .hero-ul {
- gap: 30px;
+  gap: 30px;
 }
 .hero-section h5 {
   font-size: 14px;
@@ -195,6 +188,7 @@ a {
   line-height: 16.41px;
   letter-spacing: 0.03em;
   text-align: left;
+  padding-bottom: 10px;
 }
 .hero-section p {
   font-size: 14px;
@@ -210,6 +204,7 @@ a {
   letter-spacing: 0.03em;
   text-align: center;
 }
+
 .what-we-do {
   padding-top: 94px;
   display: flex;
@@ -218,10 +213,12 @@ a {
 
 .about-img {
   display: flex;
-    gap: 30px;
-    padding-top: 50px;
-  }
-  
+  gap: 30px;
+  padding-top: 50px;
+  width: 1170px;
+  height: 386px;
+}
+
 .the-team {
   background-color: var(--button-color);
   display: flex;
@@ -237,8 +234,16 @@ a {
   padding-top: 94px;
   padding-bottom: 50px;
 }
+.list-c {
+  width: 270px;
+  height: 368px;
+  background-color: var(--white);
+}
+.what-we-do {
+  width: 1170px;
+  height: 386px;
+}
 .what-we-do img {
-  
   width: 370px;
   height: 294px;
   top: 1061px;
@@ -249,7 +254,6 @@ a {
   height: 260px;
   top: 1635px;
   left: 215px;
-  
 }
 .the-team h5 {
   font-size: 16px;
@@ -259,7 +263,8 @@ a {
   padding-top: 30px;
   padding-bottom: 10px;
   text-align: center;
-  
+  background-color: var(--white);
+  text-align: center;
 }
 .the-team p {
   font-size: 16px;
@@ -268,6 +273,7 @@ a {
   letter-spacing: 0.03em;
   color: var(--light-black);
   text-align: center;
+  background-color: var(--white);
 }
 .buttons button {
   cursor: pointer;
@@ -334,10 +340,8 @@ a {
 }
 .footer {
   padding-top: 60px;
-  
 }
 .footer__logo {
-
   text-decoration: none;
   font-weight: 700;
   color: var(--blue);
@@ -345,8 +349,6 @@ a {
   line-height: 30%;
   font-size: 26px;
   letter-spacing: 0.03em;
-  
-  
 }
 
 .footer__logo span {
@@ -356,7 +358,7 @@ a {
   cursor: pointer;
   font-style: normal;
   color: var(--white);
- padding-top: 28px;
+  padding-top: 28px;
 }
 
 .footer__mail,
@@ -364,6 +366,6 @@ a {
   color: var(--another-color);
 }
 .footer__m {
-    padding-top: 28px;
-      padding-bottom: 12px;
+  padding-top: 28px;
+  padding-bottom: 12px;
 }
