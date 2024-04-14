@@ -30,8 +30,9 @@ body {
 
 .portofoliu-main {
   width: 1170px;
-    height: 1360px;
-    padding-bottom: 94px;
+  height: 1360px;
+  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 html {
   box-sizing: border-box;
@@ -47,11 +48,11 @@ html {
 .header {
   width: 1600px;
   height: 80px;
+  border: 1px solid rgba(236, 236, 236, 1);
 }
 
 .header .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .header__navigation {
@@ -76,7 +77,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
 .logo a {
   text-decoration: none;
   color: var(--blue);
@@ -172,8 +172,7 @@ a {
   color: var(--white);
 }
 .button:focus {
-  
-box-shadow: 0 6px 6px var(--blue);
+  box-shadow: 0 6px 6px var(--blue);
 }
 
 .hero-section {
@@ -226,12 +225,10 @@ box-shadow: 0 6px 6px var(--blue);
   padding-bottom: 94px;
   width: 1600px;
   height: 648px;
-  
 }
 .the-team ul {
   display: flex;
   gap: 30px;
-
 }
 .team {
   padding-top: 94px;
@@ -283,15 +280,13 @@ box-shadow: 0 6px 6px var(--blue);
   background-color: var(--white);
 }
 
-
 .buttons {
   display: flex;
-      flex-direction: row;
-        justify-content: center;
-        padding-top: 94px;
-        padding-bottom: 50px;
-        gap: 8px;
-
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  gap: 8px;
 }
 .buttons button {
   cursor: pointer;
@@ -314,20 +309,16 @@ box-shadow: 0 6px 6px var(--blue);
 .buttons :focus {
   color: var(--white);
   background-color: var(--blue);
+  border: none;
 }
 .images {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  padding-bottom: 94px;
 }
 .img img {
   width: 370px;
   height: 294px;
-  
-}
-.img {
-  
 }
 
 .img h5 {
@@ -351,7 +342,7 @@ box-shadow: 0 6px 6px var(--blue);
 .img-p {
   width: 370px;
   height: 404px;
-  border: 1px solid rgba(238, 238, 238, 1)
+  border: 1px solid rgba(238, 238, 238, 1);
 }
 .footer {
   width: 1600px;
@@ -363,7 +354,6 @@ box-shadow: 0 6px 6px var(--blue);
   line-height: 16px;
   letter-spacing: 0.03em;
   padding-top: 60px;
- 
 }
 .footer__adr:hover,
 .footer__mail:hover,
@@ -395,7 +385,6 @@ box-shadow: 0 6px 6px var(--blue);
   color: var(--white);
   padding-top: 28px;
 }
-
 
 .footer__mail,
 .footer__tel {
